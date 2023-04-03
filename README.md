@@ -16,3 +16,10 @@
     ```
 3. Start the lua debugger in VSCode
 4. Start a mission in DCS, the debugger should connect.
+
+## License
+License for new files created is MIT.
+
+License for modified files (Ex: LuaPanda.lua) is the same as that of the original, mentioned as a comment at the beginning of such files.
+
+Copyrights to the respective owners.

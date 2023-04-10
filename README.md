@@ -10,9 +10,16 @@
 1. Open your project in VSCode.
 2. Create a `LuaHelper-Attach` debug configuration and set the following values as follow:
     ```            
-    "stopOnEntry": false,
-    "useCHook": false,
-    "autoPathMode": true
+            "type": "LuaHelper-Debug",
+            "request": "launch",
+            "name": "LuaHelper-Attach",
+            "description": "",
+            "cwd": "${workspaceFolder}",
+            "luaFileExtension": "lua",
+            "connectionPort": 8818,
+            "stopOnEntry": false,
+            "useCHook": false,
+            "autoPathMode": true
     ```
 3. Start the lua debugger in VSCode
 4. Start a mission in DCS, the debugger should connect.

@@ -24,6 +24,10 @@
 3. Start the lua debugger in VSCode
 4. Start a mission in DCS, the debugger should connect.
 
+#### Note
+
+You may need to run DCS as admin the first time you install the mod, as it adds a line to `MissionScripting.lua` & may need the permission to.
+
 ## License
 License for new files created is MIT.
 
